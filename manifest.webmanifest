@@ -1,0 +1,22 @@
+{
+  "name": "Agenda Sociale",
+  "short_name": "Agenda Sociale",
+  "description": "Appuntamenti, scadenze, UVM e casi per l'assistente sociale. Dati cifrati solo sul telefono.",
+  "lang": "it",
+  "start_url": "./#/oggi",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f5fb",
+  "theme_color": "#4338ca",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Oggi", "url": "./#/oggi" },
+    { "name": "Agenda", "url": "./#/agenda" },
+    { "name": "UVM", "url": "./#/uvm" }
+  ]
+}
